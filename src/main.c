@@ -33,7 +33,7 @@ void main(void)
 	bool led_is_on = true;
 	int ret;
 
-	dev = device_get_binding(LED0);
+	dev = device_get_binding(LED0)
 	if (dev == NULL) {
 		return;
 	}
